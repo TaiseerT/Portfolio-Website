@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
-import { Link as Link1 } from "react-scroll";
-import CountUp from "react-countup";
+import "../index.css";
 
 export default function HeroOne() {
   return (
@@ -48,41 +46,11 @@ export default function HeroOne() {
                 discover how our unique approach can elevate your business to
                 new heights.
               </p>
-
-              {/* <div className="mt-6">
-                <Link1
-                  to="contact"
-                  activeClass="active"
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                  className="nav-link btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md"
-                >
-                  Contact Us
-                </Link1>
-              </div> */}
             </div>
 
+            <div className="hidden-on-small-screens">
             <div className="relative">
-              <img src="/images/hero/3.png" alt="" />
-
-              {/* <div className="absolute lg:bottom-20 md:bottom-10 bottom-2 ltr:md:-left-5 ltr:left-2 rtl:md:-right-5 rtl:right-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-                <span className="text-3xl font-medium mb-0">
-                  <span className="counter-value font-bold" data-target="125">
-                    {" "}
-                    <CountUp
-                      start={7}
-                      className="counter-value"
-                      end={1}
-                      duration={2.75}
-                    />
-                  </span>
-                  +
-                </span>
-                <h6 className="text-sm text-slate-400 mt-1">
-                  Projects Completed
-                </h6>
-              </div> */}
+              <img src="/images/hero/3.png" alt=""/>
 
               <div className="absolute lg:top-80 md:top-56 top-48 ltr:md:-right-0 ltr:right-2 rtl:md:-left-0 rtl:left-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
                 <h6 className="font-semibold">Copywriters</h6>
@@ -90,14 +58,12 @@ export default function HeroOne() {
                   Years Of Experience
                 </h6>
               </div>
-            </div>
+              </div>
+              </div>
           </div>
         </div>
       </section>
       <div className="relative">
-        {/* <div className="absolute block w-full h-auto bottom-[25px] z-1 left-0">
-                <Link to="#about"><i className="mdi mdi-arrow-down absolute top-0 left-0 right-0 text-center inline-flex items-center justify-center rounded-full bg-white dark:bg-slate-900 h-12 w-12 mx-auto shadow-md dark:shadow-gray-800"></i></Link>
-            </div> */}
       </div>
     </>
   );

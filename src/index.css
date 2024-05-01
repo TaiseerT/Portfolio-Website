@@ -4,5 +4,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+@media (max-width: 767px) {
+  .hidden-on-small-screens {
+    display: none;
+  }
+}
 

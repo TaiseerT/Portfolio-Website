@@ -44,11 +44,6 @@ export default function Navbar() {
               className="mt-3 w-auto"
               alt=""
             />
-            {/* <img
-              src="/images/li.png"
-              className="hidden dark:inline-block"
-              alt=""
-            /> */}
           </Link>
         </div>
         <div className="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
@@ -88,17 +83,6 @@ export default function Navbar() {
               </Link>
             </li>
           </ul>
-          {/* <!-- Navbar Collapse Manu Button --> */}
-          {/* <button
-            data-collapse="menu-collapse"
-            type="button"
-            className="collapse-btn inline-flex items-center ms-2 text-dark dark:text-white lg_992:hidden"
-            aria-controls="menu-collapse"
-            aria-expanded="false"
-          >
-            <span className="sr-only">Navigation Menu</span>
-            <i className="mdi mdi-menu text-[24px]"></i>
-          </button> */}
         </div>
 
         {/* <!-- Navbar Manu --> */}

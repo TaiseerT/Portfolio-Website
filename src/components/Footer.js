@@ -9,7 +9,6 @@ export default function Footer(){
                 <div className="grid lg:grid-cols-12 md:grid-cols-3 grid-cols-1 items-center">
                     <div className="lg:col-span-3 md:text-start text-center">
                         <Link to="#" className="text-[22px] focus:outline-none">
-                            {/* <img src="/images/light.png" className="mx-auto md:me-auto md:ms-0" alt=""/> */}
                             <img src="/images/header_logo.png" className="w-32 h-auto mx-auto md:me-auto md:ms-0" alt=""/>
                             </Link>
                     </div>

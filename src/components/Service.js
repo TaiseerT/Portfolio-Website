@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { servicesData } from "../Data/data";
-import * as Unicons from "@iconscout/react-unicons";
 export default function Services() {
   return (
     <section

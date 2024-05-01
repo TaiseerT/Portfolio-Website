@@ -35,9 +35,6 @@ export default function NavbarLight(){
         <nav className="navbar" id="navbar">
         <div className="container flex flex-wrap items-center justify-between">
             <Link to="/index" className="navbar-brand md:me-8" >
-                {/* <span className="inline-block">
-                    <img src="/images/light.png" className="l-light" alt=""/>
-                </span> */}
                 <img src="/images/logo.png" className="w-32 h-auto mx-auto md:me-auto md:ms-0" alt=""/>
             </Link>
             

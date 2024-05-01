@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
-
-
 export default function HeroThree(){
     return(
         <section className="relative table w-full lg:py-60 py-36 bg-[url('../../assets/images/bg/bg3.jpg')] bg-no-repeat bg-center bg-cover" id="home">
